@@ -149,5 +149,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add any specific styles for TrainingDevelopment.vue here */
 </style>
