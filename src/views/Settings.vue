@@ -47,12 +47,10 @@ export default {
   },
   methods: {
     saveSettings() {
-      // Save settings logic here
       console.log('Settings saved:', this.settings);
       this.applySettings();
     },
     applySettings() {
-      // Apply theme settings
       if (this.settings.theme === 'Dark') {
         this.$vuetify.theme.dark = true;
       } else if (this.settings.theme === 'Light') {
@@ -60,33 +58,19 @@ export default {
       } else {
         this.$vuetify.theme.dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       }
-
-      // Apply notifications settings
       if (this.settings.notifications) {
-        // Enable notifications logic
         console.log('Notifications enabled');
       } else {
         console.log('Notifications disabled');
       }
-
-      // Apply auto save settings
       if (this.settings.autoSave) {
-        // Enable auto save logic
         console.log('Auto Save enabled');
       } else {
         console.log('Auto Save disabled');
       }
-
-      // Apply language settings
       console.log('Language set to:', this.settings.language);
-
-      // Apply time zone settings
       console.log('Time Zone set to:', this.settings.timeZone);
-
-      // Apply role settings
       console.log('Role set to:', this.settings.role);
-
-      // Apply department settings
       console.log('Department set to:', this.settings.department);
     }
   },
