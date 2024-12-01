@@ -225,14 +225,14 @@ export default {
   height: 300px;
 }
 .dashboard-card {
-  background: rgba(255, 255, 255, 0.1); /* Ensure visibility in dark mode */
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 12px;
   padding: 20px;
 }
 .gradient-card {
-  background: rgba(255, 255, 255, 0.1); /* Ensure visibility in dark mode */
+  background: rgba(255, 255, 255, 0.1);
 }
 .logout-btn, .profile-btn {
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
