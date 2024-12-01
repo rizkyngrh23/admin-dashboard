@@ -170,7 +170,7 @@ export default {
           {
             label: 'Check-ins and Check-outs',
             backgroundColor: '#36a2eb',
-            data: [125, 117, 130, 140, 150, 160] // Added more data points
+            data: [125, 117, 130, 140, 150, 160]
           }
         ]
       },
@@ -203,12 +203,12 @@ export default {
     this.overtimeChart = new Chart(overtimeCtx, {
       type: 'line',
       data: {
-        labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'], // Added example data labels
+        labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4'],
         datasets: [
           {
             label: 'Overtime Tracking',
             borderColor: '#f87979',
-            data: [20, 30, 40, 50], // Added example data points
+            data: [20, 30, 40, 50],
             fill: false
           }
         ]
