@@ -127,11 +127,9 @@ export default {
       this.bonusDialog = true;
     },
     exportPayslips() {
-      // Logic to export payslips
       alert('Payslips exported successfully!');
     },
     exportBonuses() {
-      // Logic to export bonuses and deductions
       alert('Bonuses/Deductions exported successfully!');
     }
   }
@@ -139,5 +137,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add any specific styles for Payroll.vue here */
 </style>
