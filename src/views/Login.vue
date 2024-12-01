@@ -79,10 +79,10 @@ export default {
 }
 .login-btn, .register-btn {
   transition: background-color 0.3s ease-in-out;
-  margin-bottom: 16px; /* Add margin to create a gap */
+  margin-bottom: 16px;
 }
 .login-btn {
-  margin-right: 16px; /* Add margin to create a gap */
+  margin-right: 16px;
 }
 .login-btn:hover {
   background-color: #1976d2;
