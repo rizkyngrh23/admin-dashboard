@@ -86,7 +86,7 @@ export default {
         });
         this.success = 'Registration successful! Redirecting to login...';
         setTimeout(() => {
-          this.$router.push({ name: 'Login' }); // Redirect to login page after successful registration
+          this.$router.push({ name: 'Login' });
         }, 2000);
       } catch (error) {
         console.error('Registration failed:', error);
@@ -129,10 +129,10 @@ export default {
 }
 .register-btn, .login-btn {
   transition: background-color 0.3s ease-in-out;
-  margin-bottom: 16px; /* Add margin to create a gap */
+  margin-bottom: 16px;
 }
 .register-btn {
-  margin-right: 16px; /* Add margin to create a gap */
+  margin-right: 16px;
 }
 .register-btn:hover {
   background-color: #1976d2;
