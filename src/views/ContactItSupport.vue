@@ -44,9 +44,7 @@ export default {
   },
   methods: {
     submitSupportRequest() {
-      // Handle support request submission logic here
       console.log('Support request submitted:', this.supportRequest);
-      // Reset form
       this.supportRequest = {
         name: '',
         email: '',
@@ -59,5 +57,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add any styles if needed */
 </style>
